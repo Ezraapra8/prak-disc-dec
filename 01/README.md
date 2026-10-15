@@ -2,6 +2,9 @@
 
 ---
 
+Nama    : Ezra Adyatma Pranantio
+NIM     : 255410002
+
 Mata Kuliah : Praktikum Sistem Terdistribusi dan Terdesentralisasi<br>
 Judul Topik : Git dan GitHub
 
@@ -44,7 +47,7 @@ Langkah awal yang dilakukan adalah dengan cara mengunduh installer Git yang ada 
 
 ### 2. Setelah Git diunduh, klik sebanyak dua kali untuk membuka hasil filr yang sudah di dowmload yang akan memunculkan lisensi aplikasi
 
-<img src="../images/Instal Git_01.png" width="700">
+<img src="images/Install Git_01.png" width="700">
 
 ### Pembahasan :
 
@@ -52,7 +55,7 @@ Setelah berhasil diunduh, lakukan klik pada file Git sampai muncul halaman lisen
 
 ### 3. Menentukan tempat untuk menyimpan Git pada SSD atau lokasi lainnya
 
-<img src="../images/Instal Git_02.png" width="700">
+<img src="images/Install Git_02.png" width="700">
 
 ### Pembahasan :
 
@@ -60,7 +63,7 @@ Pada tahap ini installer menanyakan di folder mana Git akan dipasang. Lokasi baw
 
 ### 4. Memilih komponen yang ingin diinstal, gunakan pilihan default, lalu klik next
 
-<img src="../images/Instal Git_3.png" width="700">
+<img src="images/Install Git_3.png" width="700">
 
 ### Pembahasan :
 
@@ -68,7 +71,7 @@ Di halaman ini kita memilih komponen apa saja yang ikut terpasang. Beberapa yang
 
 ### 5. Membuat shortcut pada menu start, dengan nama Git (default)
 
-<img src="../images/Instal Git_04.png" width="700">
+<img src="images/Install Git_04.png.png" width="700">
 
 ### Pembahasan :
 
@@ -76,7 +79,7 @@ Tahap ini mengatur di mana shortcut Git diletakkan pada Start Menu. Nama folder 
 
 ### 6. Memilih editor yang akan digunakan dengan Git
 
-<img src="../images/Instal Git_05.png" width="700">
+<img src="images/Install Git_05.png" width="700">
 
 ### Pembahasan :
 
@@ -84,7 +87,7 @@ Halaman ini menanyakan editor teks yang akan dipakai Git, misalnya saat menulis 
 
 ### 7. Menentukan Nama Branch Awal
 
-<img src="../images/Instal Git_06.png" width="700">
+<img src="images/Instal Git_06.png" width="700">
 
 ### Pembahasan :
 
@@ -92,7 +95,7 @@ Halaman ini mengatur nama branch awal setiap kali kita membuat repositori baru d
 
 ### 8. Mengatur Lingkungan PATH
 
-<img src="../images/Instal Git_07.png" width="700">
+<img src="images/Install Git_07.png" width="700">
 
 ### Pembahasan :
 
@@ -100,7 +103,7 @@ Tahap ini menentukan bagaimana Git dapat dipanggil dari command line. Pilihan ya
 
 ### 9. Memilih Pustaka HTTPS Transport
 
-<img src="../images/Instal Git_8.png" width="700">
+<img src="images/Install Git_8.png" width="700">
 
 ### Pembahasan :
 
@@ -108,7 +111,7 @@ Halaman ini memilih pustaka SSL/TLS yang dipakai Git untuk koneksi HTTPS. Piliha
 
 ### 10. Mengatur Konversi Akhiran Baris
 
-<img src="../images/Instal Git_9.png" width="700">
+<img src="images/Install Git_9.png" width="700">
 
 ### Pembahasan :
 
@@ -116,7 +119,7 @@ Pada tahap ini kita mengatur cara Git memperlakukan akhiran baris (line endings)
 
 ### 11. Memilih Emulator Terminal untuk Git Bash
 
-<img src="../images/Instal Git_10.png" width="700">
+<img src="images/Install Git_10.png" width="700">
 
 ### Pembahasan :
 
@@ -124,7 +127,7 @@ Halaman ini memilih emulator terminal untuk Git Bash. Pilihan yang aktif adalah 
 
 ### 12. Mengatur Perilaku Bawaan Git Pull
 
-<img src="../images/Instal Git_11.png" width="700">
+<img src="images/Install Git_11.png" width="700">
 
 ### Pembahasan :
 
@@ -132,7 +135,7 @@ Tahap ini mengatur perilaku bawaan perintah git pull. Pilihan yang dipakai adala
 
 ### 13. Memilih Credential Helper
 
-<img src="../images/Instal Git_12.png" width="700">
+<img src="images/Install Git_12.png" width="700">
 
 ### Pembahasan :
 
@@ -140,7 +143,7 @@ Halaman ini memilih credential helper, yaitu alat yang menyimpan kredensial logi
 
 ### 14. Mengatur Opsi Tambahan
 
-<img src="../images/Instal Git_13.png" width="700">
+<img src="images/Install Git_13.png" width="700">
 
 ### Pembahasan :
 
@@ -148,7 +151,7 @@ Pada halaman ini terdapat dua opsi tambahan. Opsi â€œEnable file system cachingâ
 
 ### 15. Proses Instalasi Berlangsung
 
-<img src="../images/Instal Git_14.png" width="700">
+<img src="images/Install Git_14.png" width="700">
 
 ### Pembahasan :
 
@@ -156,7 +159,7 @@ Proses instalasi sedang berjalan pada tahap ini. Setup mengekstrak berkas-berkas
 
 ### 16. Menyelesaikan Instalasi Git
 
-<img src="../images/Instal Git_15.png" width="700">
+<img src="images/Install Git_15.png" width="700">
 
 ### Pembahasan :
 
@@ -164,7 +167,7 @@ Halaman terakhir menandakan bahwa Git Setup Wizard telah selesai dan Git berhasi
 
 ### 17. Memeriksa versi Git yang telah terpasang
 
-<img src="../images/Check versi.png" width="700">
+<img src="images/Check versi.png" width="700">
 
 ### Pembahasan :
 
@@ -176,7 +179,7 @@ Setelah proses instalasi selesai, langkah berikutnya adalah memastikan bahwa Git
 
 ### 1. Mengatur Identitas Pengguna Global
 
-<img src="../images/Konfigurasi Git.png" width="700">
+<img src="images/Konfigurasi Git.png" width="700">
 
 ### Pembahasan :
 
@@ -184,7 +187,7 @@ Pada langkah pertama, perintah git config --global user.name "Ezraapra8" dan git
 
 ### 2. Memeriksa File Konfigurasi Global
 
-<img src="../images/Konfigurasi Git_1.png" width="700">
+<img src="images/Konfigurasi Git_1.png" width="700">
 
 ### Pemabahasan :
 
@@ -192,7 +195,7 @@ Setelah identitas diatur, langkah berikutnya adalah memastikan pengaturan tadi b
 
 ### 3.Menampilkan Konfigurasi Git Sistem dan Bawaan Instalasi
 
-<img src="../images/Konfigurasi Git_2.png" width="700">
+<img src="images/Konfigurasi Git_2.png" width="700">
 
 ### Pemabahasan :
 
