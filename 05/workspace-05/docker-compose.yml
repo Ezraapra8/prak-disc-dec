@@ -1,0 +1,14 @@
+services:
+  # Aplikasi blacksheep yang akan di-scale
+  # ada pada direktori blacksheep_lb
+  bs_app:
+    build: ./blacksheep_lb
+  # ada pada direktori blacksheep_lb
+  # lihat pada build
+  nginx:
+    container_name: nginx
+    build: ./nginx
+    ports:
+      - "80:80"
+    depends_on:
+      - bs_app
