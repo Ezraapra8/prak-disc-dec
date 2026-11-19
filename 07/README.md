@@ -205,8 +205,6 @@ __Jawab :__
 **Penjelasan :**
 <p align ="justify">Arsitektur tersebut menunjukkan bahwa infrastruktur fisik menjadi dasar penyediaan layanan cloud. Di atasnya terdapat IaaS yang menyediakan sumber daya komputasi, PaaS yang menyediakan platform pengembangan aplikasi, dan SaaS yang menyediakan aplikasi siap digunakan oleh pengguna. Ketiga model tersebut memiliki tingkat pengelolaan yang berbeda sesuai kebutuhan penggunanya.
 
-
-
 ### Kesimpulan 
 <p align ="justify">Berdasarkan praktikum Modul 7, dapat disimpulkan bahwa Cloud Computing merupakan teknologi yang memungkinkan pengguna memanfaatkan sumber daya komputasi melalui internet dalam bentuk layanan. Melalui model SaaS, PaaS, dan IaaS, pengguna dapat memperoleh layanan perangkat lunak, platform pengembangan, hingga infrastruktur virtual sesuai kebutuhan.
 
