@@ -1,5 +1,5 @@
 
-# Praktik 7 - Cloud Computing - HDFS
+# Praktik 7 - Cloud Computing
 
 ---
 
