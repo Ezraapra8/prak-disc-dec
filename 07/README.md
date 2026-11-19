@@ -1,7 +1,6 @@
 
 # Praktik 7 - Cloud Computing
 
----
 
 Judul Modul : Cloud Computing<br>
 Mata Kuliah : **Praktikum Sistem Terdistribusi dan Terdesentralisasi**
