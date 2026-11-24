@@ -51,6 +51,8 @@ Mata Kuliah : **Praktikum Sistem Terdistribusi dan Terdesentralisasi**
 
 <p align ="justify">Dalam pengelolaan koneksi database pada <em>FastAPI, Dependency Injection</em> digunakan untuk menyediakan kebutuhan tertentu kepada fungsi yang memerlukannya. Penerapannya terlihat pada Depends(get_session) yang memberikan objek Session kepada <em>endpoint API</em>. Objek Session berfungsi sebagai penghubung antara aplikasi dan database SQLite untuk menjalankan operasi pengambilan data. Fungsi get_session() menggunakan yield untuk menyediakan session selama proses berlangsung, sedangkan context manager membantu mengelola siklus penggunaannya secara terstruktur.
 
+<br>
+
 # 📝Pembahasan Praktikum
 
 ## 1. Prasyarat
