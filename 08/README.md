@@ -185,28 +185,28 @@ Mata Kuliah : **Praktikum Sistem Terdistribusi dan Terdesentralisasi**
 ### 1. Buat satu tabel baru menggunakan SQLite, tabel berbeda dari yang ada pada contoh. Tabel tersebut mempunyai 1 primary key dan setidaknya berisi data dengan tipe INT, CHAR, VARCHAR, BOOLEAN, dan FLOAT.
 
 ### Membuka Database Inventaris
-<img src="images/gambar15_m8.png" width="680">
+<img src="images/gambar15_m8.png" width="650">
 
 #### Pembahasan :
 
 <p align ="justify">Database baru dibuat dan dibuka menggunakan perintah sqlite3 inventaris.db sebagai tempat penyimpanan data produk. Database ini digunakan untuk memenuhi tugas praktikum dengan membuat tabel baru yang memiliki satu primary key serta beberapa kolom dengan tipe data yang berbeda. Setelah perintah dijalankan, terminal menampilkan informasi versi SQLite dan prompt sqlite> sebagai tanda bahwa database berhasil dibuka. Selanjutnya, perintah SQL dapat dimasukkan untuk membuat struktur tabel yang dibutuhkan.
 
 ### Membuat Tabel Produk pada SQLite
-<img src="images/gambar16_m8.png" width="680">
+<img src="images/gambar16_m8.png" width="650">
 
 #### Pembahasan :
 
 <p align ="justify">Perintah CREATE TABLE produk digunakan untuk membuat tabel produk dengan enam kolom, yaitu id, kode, nama, stok, harga, dan tersedia. Setiap kolom menggunakan tipe data yang sesuai, meliputi INTEGER, CHAR, VARCHAR, FLOAT, dan BOOLEAN, sedangkan kolom id ditetapkan sebagai primary key. Kolom kode digunakan untuk menyimpan kode produk, sedangkan nama digunakan untuk menyimpan nama produk. Sementara itu, kolom stok, harga, dan tersedia digunakan untuk menyimpan jumlah persediaan, nilai harga, serta status ketersediaan produk.
 
 ### Memeriksa Struktur Tabel Produk
-<img src="images/gambar17_m8.png" width="680">
+<img src="images/gambar17_m8.png" width="650">
 
 #### Pembahasan :
 
 <p align ="justify">Perintah .schema produk digunakan untuk menampilkan struktur SQL dari tabel produk yang telah dibuat sebelumnya. Hasilnya memperlihatkan definisi setiap kolom beserta tipe datanya dan penetapan primary key pada kolom id, sehingga struktur tabel dapat diperiksa kembali. Pemeriksaan ini membantu memastikan bahwa tabel telah dibuat sesuai dengan perintah tugas praktikum. Dengan demikian, struktur database siap digunakan untuk proses pengisian data produk.
 
 ### Memeriksa Detail Struktur Kolom Tabel
-<img src="images/gambar18_m8.png" width="680">
+<img src="images/gambar18_m8.png" width="650">
 
 #### Pembahasan :
 
@@ -215,14 +215,14 @@ Mata Kuliah : **Praktikum Sistem Terdistribusi dan Terdesentralisasi**
 ### 2. Isikan 5 data menggunakan script Python
 
 ### Membuat Script Python untuk Mengisi Data Produk
-<img src="images/gambar19_m8.png" width="680">
+<img src="images/gambar19_m8.png" width="670">
 
 #### Pembahasan :
 
 <p align ="justify">File isi_data.py dibuat untuk memasukkan lima data produk ke dalam database inventaris.db menggunakan SQLModel. Data produk didefinisikan melalui objek Produk, kemudian dimasukkan ke database menggunakan session.add() dan disimpan secara permanen melalui session.commit(). Lima data yang dimasukkan terdiri dari Keyboard Mekanikal, Mouse Wireless, Monitor 24 Inch, Webcam HD, dan USB Hub Type-C. Penggunaan perulangan for membantu memasukkan seluruh objek produk ke dalam session tanpa harus menuliskan perintah penyimpanan secara berulang.
 
 ### Menampilkan Data Produk dari Database
-<img src="images/gambar20_m8.png" width="680">
+<img src="images/gambar20_m8.png" width="650">
 
 #### Pembahasan :
 
